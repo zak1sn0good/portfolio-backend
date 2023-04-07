@@ -4,7 +4,6 @@
   "description": "API that handles my portfolio's contact form submissions and also that provides my portfolio content (my projects).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
