@@ -20,7 +20,9 @@ mongoose.connect(process.env.DATABASE_URI, (err) => {
   }
 });
 
-app.use(cors());
+app.use(cors({
+  origin: '*'
+}));
 app.use(express.json());
 
 app.use('/projects', projectsRoutes);
